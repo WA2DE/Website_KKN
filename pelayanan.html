@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<lang="id">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Akhir My CSS -->
+
+    <link rel="icon" href="img/logo.png" type="image/x-icon" />
+
+    <title>Home | Desa Astapada</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand text-dark" href="index.html">
+          <img src="img/logo.png" alt="Logo" class="navbar-logo" />
+          Pusat Layanan Terpadu Astapada </a
+        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link text-dark" href="informasi.html">Informasi</a>
+            <a class="nav-link text-dark" href="pelayanan.html">Pelayanan</a>
+            <!-- button -->
+            <div class="btn-group">
+            <button type="button" class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Loker info
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://lokercirebon.com/">lokercirebon</a></li>
+              <li><a class="dropdown-item" href="https://radarkerja.com/loker/cirebon/">radarkerja</a></li>
+              <li><a class="dropdown-item" href="https://glints.com/id/location/loker-cirebon/29081?gclid=Cj0KCQjwz8emBhDrARIsANNJjS5C1vt17WsCai4Bb19eBVyPXLyZFxP54h2eUOLXWW_2MhIpjXPnVZkaAl8YEALw_wcB&utm_source=google&utm_medium=cpc&utm_campaign=ID|Marketplace|Performancemax|MPA-75">glints</a></li>
+              <li><a class="dropdown-item" href="https://id.indeed.com/jobs?l=cirebon&from=mobRdr&utm_source=%2Fm%2F&utm_medium=redir&utm_campaign=dt&vjk=9371b1e0edf7bedf">indeed</a></li>
+              <li><a class="dropdown-item" href="https://kerja.kitalulus.com/id/lowongan/kota/kabupaten-cirebon">kitalulus</a></li>
+              <li><a class="dropdown-item" href="https://disnaker.cirebonkota.go.id/info-jobfair/">disnaker.cirebonkota</a></li>
+            </ul>
+            </div>
+            <div class="btn-group">
+            <button type="button" class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Info Beasiswa
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://kip-kuliah.kemdikbud.go.id/">KIP K</a></li>
+              <li><a class="dropdown-item" href="https://beasiswa.baznas.go.id/">Baznas</a></li>
+              <li><a class="dropdown-item" href="https://beasiswa-jfl.jabarprov.go.id/">JFLS</a></li>
+              <li><a class="dropdown-item" href="https://beasiswa.kemenag.go.id/program-beasiswa-lpdp-kemenag-ri/">LPDP Kemenag</a></li>
+              <li><a class="dropdown-item" href="https://gtk.kemdikbud.go.id/lpdpgtk/public/">LPDP GTK Kemendikbud</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron12 text-center">
+      <h1 class="display-4 text-light" width="400" style="font-family: 'Times New Roman', Times, serif;">Pusat Pelayanan Desa Astapada</h1>
+      <p class="lead text-light"">Pusat Pelayanan Desa Astapada Merupakan Sebuah Pelayanan Online Yang Memuat Informasi Tentang KIPK, SKTM, Pembuatan/Perubahan KK, SKU dan Surat Kematian</p>
+    </section>
+    <!-- Akhir Jumbotron -->
+    <div class="bg-image" style="background-image: url('img/plt.jpg');">
+      <h1 class="display-4 text-light text-center" style="padding: 40px;" width="400">Jenis Layanan </h1>
+      <p class="text-light text-center" style="padding: 20px; padding-top: 0%; font-size: 24px;">Lihat Persyaratan Yang Diperlukan</p>
+    <div class="d-grid gap-2 col-6 mx-auto" style="padding-bottom: 40px">
+      <button class=" button1 btn btn-success" onclick="toggleText('text10', 'text20', 'text30', 'text40', 'text50')">KIPK</button>
+      <a id="text10" class="hidden-text">1. Kartu Keluarga</a>
+      <a id="text20" class="hidden-text">2. Akta Kelahiran</a>
+      <a id="text30" class="hidden-text">3. Kartu Keluarga Sejahtera (KKS)/SKTM Apbila Tidak Memiliki KKS</a>
+      <a id="text40" class="hidden-text">4. Rapor Hasil Belajar Siswa</a>
+      <a id="text50" class="hidden-text">5. Surat Pemberitahuan Penerima BSM Dari Kepala Sekolah atau madrasah</a>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto" style="padding-bottom: 40px">
+      <button class=" button1 btn btn-success" onclick="toggleText('text11', 'text21', 'text31', 'text41')">SKTM</button>
+      <a id="text11" class="hidden-text">1. Surat Pengantar RT/RW</a>
+      <a id="text21" class="hidden-text">2. Fotocopy e-KTP</a>
+      <a id="text31" class="hidden-text">3. Fotocopy Kartu Keluarga (KK)</a>
+      <a id="text41" class="hidden-text">4. Kartu Identitas Warga Miskin dan Formulir Verifikasi Warga Miskin</a>
+      </div>
+    <div class="d-grid gap-2 col-6 mx-auto" style="padding-bottom: 40px">
+      <button class=" button1 btn btn-success" onclick="toggleText('text12', 'text22', 'text32', 'text42')">Pembuatan/Perubahan KK</button>
+      <a id="text12" class="hidden-text">1. Surat Pengantar Dari Desa atau Kelurahan KK Lama</a>
+      <a id="text22" class="hidden-text">2. KK yang ditumpangi</a>
+      <a id="text32" class="hidden-text">3. Surat KEterangan Pindah Datang Bagi penduduk yang pindah dalam wilayah NKRI atau</a>
+      <a id="text42" class="hidden-text">4. Surat KEterangan Datang Dari Luar Negeri Bagi WNI Yang DAtang Dari LuarNegeri Karena Pindah</a>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto" style="padding-bottom: 40px">
+      <button class=" button1 btn btn-success" onclick="toggleText('text13', 'text23', 'text33', 'text43', 'text53', 'text63')">Surat Keterangan Usaha (SKU)</button>
+      <a id="text13" class="hidden-text">1. Fotocopy Kartu Keluarga (KK)</a>
+      <a id="text23" class="hidden-text">2. Fotocopy Kartu Tanda Penduduk (KTP)</a>
+      <a id="text33" class="hidden-text">3. Surat Pengantar RT/RW</a>
+      <a id="text43" class="hidden-text">4. Surat Pernyataan (Dicap & Ditandatangan oleh RT/RW)</a>
+      <a id="text53" class="hidden-text">5. Memiliki Alamat e-Mail</a>
+      <a id="text63" class="hidden-text">6. Nomor HP Aktif</a>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto" style="padding-bottom: 40px">
+      <button class=" button1 btn btn-success" onclick="toggleText('text14', 'text24', 'text34', 'text44', 'text54', 'text64')">Surat Kematian</button>
+      <a id="text14" class="hidden-text">1. Surat Pengantar RT/RW</a>
+      <a id="text24" class="hidden-text">2. Formulir (Tersedia di Kelurahan)</a>
+      <a id="text34" class="hidden-text">3. KTP Asli Yang Meninggal</a>
+      <a id="text44" class="hidden-text">4. KK Dimana Yang Meninggal Terdaftar</a>
+      <a id="text54" class="hidden-text">5. Surat Keterangan Kematian Dari Dokter, Rumah Sakit atau Kepolisian</a>
+      <a id="text64" class="hidden-text">6. Fotocopy e-KTP Pelapor atau Pemohon</a>
+    </div>
+  </div>
+  <style>
+    .hidden-text {
+      display: none;
+      color: white;
+      text-decoration: none;
+    }
+  /* .body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  } */
+  </style>
+    <script>
+      function toggleText(...elementIds) {
+        for (const elementId of elementIds) {
+          var element = document.getElementById(elementId);
+          if (element.style.display === 'none') {
+            element.style.display = 'block';
+          } else {
+            element.style.display = 'none';
+          }
+        }
+      }
+    </script>
+    <!-- Footer -->
+    <footer class="bg-success text-center text-dark" style="display: flex; flex-direction: column">
+      <p class="text-light fw-light text-center" style="margin-top: 40px">Kontak Person :</p>
+      <div class="d-flex flex-wrap justify-content-center" style="margin-bottom: 40px">
+        <a href="mailto:desaastapada389@gmail.com" class="text-light me-4">
+          <i class="far fa-envelope fa-lg text-light"></i>
+          <span>desaastapada389@gmail.com</span>
+        </a>
+        <a href="https://www.instagram.com/pemdes_astapada/" class="text-light me-4">
+          <i class="fab fa-instagram fa-lg text-light"></i>
+          <span>@pemdes_astapada</span>
+        </a>
+      </div>
+      <p class="text-light fw-light text-center" style="margin-top: 20px; margin-bottom: 5px;">Created By</p>
+      <div style="display: flex; justify-content: center; align-items: center; padding-bottom: 40px;">
+        <div class="popup" onclick="showPopup()">
+          <img src="img/kkn-105.png" alt="watermark" style="max-width: 50px; max-height: 50px;"/>
+          <span class="popuptext" id="myPopup">
+            <span  style="font-size: 16px;">KKN Kolaborasi PT 105</span>
+            <br>
+            <span  style="font-size: 12px;">Fajri Awwaluddin</span>
+            <br>
+            <span  style="font-size: 12px;">Diva Aldin Ibrahim</span>
+            <br>
+            <span  style="font-size: 12px;">Gita Cahya Utami</span>
+          </span>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+  </body>
+</html>
